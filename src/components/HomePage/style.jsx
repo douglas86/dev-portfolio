@@ -9,6 +9,12 @@ const useStyles = makeStyles({
     height: "auto",
     width: "20rem",
   },
+  left: {
+    marginTop: "1rem",
+  },
+  leftHeading: {
+    textAlign: "left",
+  },
 });
 
 export default useStyles;
