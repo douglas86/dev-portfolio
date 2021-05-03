@@ -11,8 +11,9 @@ const NavBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="#Online sites">Online sites</Nav.Link>
-            <Nav.Link href="#github sites">github sites</Nav.Link>
+            <Nav.Link href="#github sites">Github Projects</Nav.Link>
             <Nav.Link href="#blogs">Blogs</Nav.Link>
+            <Nav.Link href="#volunteer">Volunteer Work</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link href="https://www.linkedin.com/in/douglas-maxton-58134b170/">

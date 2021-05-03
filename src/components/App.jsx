@@ -1,12 +1,26 @@
+// importing bootstrap styling
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Container } from "react-bootstrap";
+
+// import components into the app
 import NavBar from "./Navbar.jsx";
 import HomePage from "./HomePage.jsx";
+import OnlineSites from "./Sections/OnlineSites.jsx";
+import GithubProjects from "./Sections/githubProjects.jsx";
+import Blog from "./Sections/Blog.jsx";
+import Volunteer from "./Sections/Volunteer.jsx";
 
 const App = () => {
   return (
     <div>
       <NavBar />
-      <HomePage />
+      <Container>
+        <HomePage />
+        <OnlineSites />
+        <GithubProjects />
+        <Blog />
+        <Volunteer />
+      </Container>
     </div>
   );
 };

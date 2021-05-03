@@ -1,5 +1,5 @@
 // grid imports
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 // styling for component
 import useStyles from "./style.jsx";
@@ -11,17 +11,15 @@ import RightSide from "./HomePage/RightSide";
 const HomePage = () => {
   const classes = useStyles();
   return (
-    <div className={classes.home}>
-      <Container>
-        <Row>
-          <Col lg={7}>
-            <LeftSide />
-          </Col>
-          <Col lg={5}>
-            <RightSide />
-          </Col>
-        </Row>
-      </Container>
+    <div id="home" className={classes.home}>
+      <Row>
+        <Col lg={7}>
+          <LeftSide />
+        </Col>
+        <Col lg={5}>
+          <RightSide />
+        </Col>
+      </Row>
     </div>
   );
 };

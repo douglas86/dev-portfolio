@@ -5,7 +5,7 @@ const RightSide = () => {
   const classes = useStyles();
   return (
     <div className={classes.right}>
-      <img className={classes.rightImg} src={main} alt="main picture" />
+      <img className={classes.rightImg} src={main} alt="main" />
     </div>
   );
 };
