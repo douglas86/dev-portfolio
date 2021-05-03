@@ -1,12 +1,12 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavBar from "./Navbar.jsx";
-import Home from "./Home.jsx";
+import HomePage from "./HomePage.jsx";
 
 const App = () => {
   return (
     <div>
       <NavBar />
-      <Home />
+      <HomePage />
     </div>
   );
 };
