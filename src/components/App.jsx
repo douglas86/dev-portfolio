@@ -9,6 +9,7 @@ import OnlineSites from "./Sections/OnlineSites.jsx";
 import GithubProjects from "./Sections/githubProjects.jsx";
 import Blog from "./Sections/Blog.jsx";
 import Volunteer from "./Sections/Volunteer.jsx";
+import Scripts from "./Sections/Scripts.jsx";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <GithubProjects />
         <Blog />
         <Volunteer />
+        <Scripts />
       </Container>
     </div>
   );

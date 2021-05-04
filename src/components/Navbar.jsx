@@ -14,6 +14,7 @@ const NavBar = () => {
             <Nav.Link href="#github sites">Github Projects</Nav.Link>
             <Nav.Link href="#blogs">Blogs</Nav.Link>
             <Nav.Link href="#volunteer">Volunteer Work</Nav.Link>
+            <Nav.Link href="#scripts">Scripts</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link href="https://www.linkedin.com/in/douglas-maxton-58134b170/">

@@ -1,10 +1,10 @@
-import useStyles from "../style.jsx";
+import useStyles from "./style.jsx";
 
 const OnlineSites = () => {
   const classes = useStyles();
   return (
-    <div id="Online sites" className={classes.onlineSites}>
-      <h1>Online Sites:</h1>
+    <div className={classes.onlineSites} id="Online sites">
+      <h1 className={classes.fonts}>Online Sites:</h1>
     </div>
   );
 };
