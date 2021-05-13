@@ -7,6 +7,9 @@ const useStyles = makeStyles({
     fontFamily: "'Reggae One', cursive",
     fontSize: "4rem",
   },
+  topP: {
+    textAlign: "center",
+  },
   right: {
     marginTop: "8rem",
     marginLeft: "25%",
