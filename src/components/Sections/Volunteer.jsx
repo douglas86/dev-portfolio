@@ -5,7 +5,7 @@ const Volunteer = () => {
   return (
     <div id="volunteer" className={classes.volunteer}>
       <h1 className={classes.fonts}>Volunteer:</h1>
-      <a href="https://codeyourfuture.io/" target="_blank">
+      <a href="https://codeyourfuture.io/" target="_blank" rel="noreferrer">
         Code Your Future
       </a>
       <br />

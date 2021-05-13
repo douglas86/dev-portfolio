@@ -1,21 +1,23 @@
 import useStyles from "./style.jsx";
+import { Carousel } from "react-bootstrap";
 
 const LeftSide = () => {
   const classes = useStyles();
+  const quotes = [
+    '"The greatest glory in living lies not in never falling, but in rising every time we fall." -Nelson Mandela',
+    '"The way to get started is to quit talking and begin doing." -Walt Disney',
+    `"Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of other people's thinking." -Steve Jobs`,
+  ];
   return (
     <div className={classes.right}>
-      <h1 className={classes.leftHeading}>About Me!!</h1>
-      <p>
-        A highly competent and creative web developer with a variety of exciting
-        personal projects. A level head and an array of technical abilities has
-        led me to become a critical, problem solver with a portfolio of
-        impressive web solutions. Technically competent and industry aware means
-        that each project is undertaken with the most up-to-date and relevant
-        programming foundations available. A strong communicator with a
-        background in a broad range of technical fields has led me to gain the
-        abilities to convey ideas clearly with a special emphasis on client
-        satisfaction.
-      </p>
+      <h1 className={classes.leftHeading}>Famous Quotes!!</h1>
+      <Carousel>
+        {quotes.map((i, k) => (
+          <Carousel.Item key={k}>
+            <p>{i}</p>
+          </Carousel.Item>
+        ))}
+      </Carousel>
     </div>
   );
 };
