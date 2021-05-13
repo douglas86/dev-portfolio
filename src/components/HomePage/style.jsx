@@ -1,6 +1,12 @@
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles({
+  top: {
+    marginTop: "5rem",
+    textAlign: "center",
+    fontFamily: "'Reggae One', cursive",
+    fontSize: "4rem",
+  },
   right: {
     marginTop: "8rem",
     marginLeft: "25%",
